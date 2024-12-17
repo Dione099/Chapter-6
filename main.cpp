@@ -9,7 +9,7 @@ const double HOURS_PER_GALLON = 8.0;
 const double LABOR_COST_PER_HOUR = 25.0;
 
 // Function prototypes
-int getValidatedInput(string prompt, double min);
+double getValidatedInput(string prompt, double min);
 void calculateAndDisplayResults(int numRooms, double paintPrice);
 
 int main() {
